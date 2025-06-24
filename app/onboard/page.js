@@ -3,6 +3,7 @@ import MultiSelectDropdown from "@/components/MultiSelectDropdown";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { Music2, Upload } from "lucide-react";
+import Image from "next/image";
 
 export default function OnboardForm() {
   const {
@@ -154,6 +155,8 @@ export default function OnboardForm() {
                     src={previewImage}
                     alt="Preview"
                     className="w-32 h-32 object-cover rounded-xl border border-gray-600/50"
+                    width={500}
+                    height={300}
                   />
                 </div>
               )}

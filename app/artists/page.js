@@ -234,7 +234,7 @@ export default function ArtistListPage() {
                 No Artists Found
               </h3>
               <p className="text-gray-400 mb-6">
-                We couldn't find any artists matching your current filters.
+                We couldn&apos;t find any artists matching your current filters.
               </p>
               <button
                 onClick={clearFilters}
