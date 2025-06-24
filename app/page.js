@@ -53,8 +53,8 @@ export default function HomePage() {
 
             {/* Subheading */}
             <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
-              Whether you're organizing a corporate event, wedding, or concert,
-              find the perfect talent to make your event unforgettable.
+              Whether you&apos;re organizing a corporate event, wedding, or
+              concert, find the perfect talent to make your event unforgettable.
             </p>
 
             {/* CTA Buttons */}

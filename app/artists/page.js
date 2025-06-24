@@ -150,7 +150,7 @@ export default function ArtistListPage() {
             <div className="mt-4 flex flex-wrap gap-2">
               {searchTerm && (
                 <span className="inline-flex items-center px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">
-                  Search: "{searchTerm}"
+                  Search: &apos;{searchTerm}&apos;
                   <button
                     onClick={() => setSearchTerm("")}
                     className="ml-2 hover:text-blue-200"

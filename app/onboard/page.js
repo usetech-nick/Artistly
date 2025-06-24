@@ -150,7 +150,7 @@ export default function OnboardForm() {
               </div>
               {previewImage && (
                 <div className="mt-4 flex justify-center">
-                  <img
+                  <Image
                     src={previewImage}
                     alt="Preview"
                     className="w-32 h-32 object-cover rounded-xl border border-gray-600/50"
